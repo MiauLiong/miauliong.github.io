@@ -1,0 +1,13 @@
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #83ff98;
+}
+#service {
+  background-color: #83ff98;
+}
+.col {
+  display: inline-block;
+}
+section {
+  padding-top: 5rem;
+}

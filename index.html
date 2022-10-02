@@ -47,7 +47,7 @@
 
     <!-- Jumbotron-->
     <section class="jumbotron text-center">
-      <img src="img/foto.jpg" alt="C.M.L" width="200" class="rounded-circle img-thumbnail" />
+      <img src="img/pp.jpeg" alt="C.M.L" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">C.M.L</h1>
       <p class="lead">
         Manusia <br />
@@ -136,7 +136,43 @@
     <!-- akhir service -->
 
     <!-- contact -->
-    
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3 m-4">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-7">
+            <div class="alert alert-warning alert-dismissible fade show d-none my-alert" role="alert">
+              <strong>Terima Kasih.</strong>Pesan anda telah kami terima
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <form name="cml-contact-form">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
+              </div>
+              <div class="mb-3">
+                <label for="Email" class="form-label">Email </label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+              </div>
+              <button type="submit" class="btn btn-kirim mb-2" style="background-color: #05da17">Kirim</button>
+
+              <button class="btn btn-loading d-none" type="button" disabled style="background-color: #05da17">
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#05da17"
